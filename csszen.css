@@ -1,0 +1,174 @@
+#css-zen-garden {
+	margin: 5%;
+	background-color: #D0F4F5;
+
+}
+.page-wrapper {
+	background-color: #77c4d3;
+	margin: auto;
+}
+h1 {
+	margin: 5px;
+	background-color: #ea2e49;
+	color: white;
+	padding: 14px;
+	width: 20%;
+	text-align: center;
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+	margin: 5%;
+	padding: 20px;
+	line-height: 120px;
+	width: 500px;
+	
+}
+.summary {
+	font-family: 'Pragati Narrow', sans-serif;
+	color: white;
+	width: 600px;
+	margin: 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.summary p:first-child {
+	padding-bottom: 25px;
+	border-bottom: 1px solid red;
+}
+.summary>p {
+	line-height: 25px;
+}
+/*.summary>p>a {
+	color: white;
+}*/
+.preamble {
+	background: rgba(255,255,255,0.9);
+	color: #2E2626;
+	width: 44%;
+	padding: 40px 100px 40px 100px;
+	margin: 40px 40px 40px -80px;
+	font-size: 25px;
+	font-family: 'Pragati Narrow', sans-serif;
+	line-height: 30px;
+
+}
+h3 {
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+	margin: 0px;
+}
+.explanation {
+	color: white;
+	width: 34%;
+	margin: 20px;
+	font-size: 25px;
+	padding: 80px;
+	font-family: 'Pragati Narrow', sans-serif;
+}
+.participation {
+	background-color: rgba(234,46,73,0.9);
+	color: white;
+	width: 34%;
+	margin: 20px;
+	padding: 40px;
+	font-size: 25px;
+	font-family: 'Pragati Narrow', sans-serif;
+	position: absolute;
+	top: 215%;
+	right: 10%;
+	z-index: 1;
+}
+/*.participation>p>a {
+	color: white;
+	
+}*/
+.participation>p>a:hover {
+	border-bottom: 1px solid white;
+}
+.benefits {
+	background-color: rgba(255,255,255,0.9);
+	color: #2E2626;
+	width: 18%;
+	margin: 300px 40px;
+	font-size: 20px;
+	padding: 30px;
+	font-family: 'Pragati Narrow', sans-serif;
+	line-height: 30px;
+}
+.requirements {
+	background-color: rgba(255,255,255,0.9);
+	color: #2E2626;
+	width: 54%;
+	margin: 20px;
+	font-size: 22px;
+	padding: 40px;
+	font-family: 'Pragati Narrow', sans-serif;
+	line-height: 30px;
+	position: absolute;
+	top: 368%;
+	right: 10%;
+	z-index: 1;
+}
+.requirements p:last-child {
+    border-top: 1px solid red;
+}
+footer {
+	font-family: monospace;
+	font-size: 20px;
+	background-color: #F2F19B;
+	width: 500px;
+	padding: 20px;
+	margin-left: 40px;
+	text-align: left;
+}
+footer>a {
+	padding: 5px;
+}
+.sidebar {
+	background-color: rgba(246,247,146,0.9);
+	color: #2E2626; 
+	width: 320px;
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 20px;
+	padding: 40px;
+	position: absolute;
+	top: 20%;
+	right: 5%;
+	z-index: 1;
+}
+li {
+	list-style-type: none;
+	padding-bottom: 0px;
+	margin: 15px;
+}
+a {
+	border-bottom: 1px solid grey;
+	text-decoration: none;
+	text-align: center;
+	color: inherit;
+}
+a:hover {
+ border-bottom: 1px solid red;
+}
+/*a:link, a:visited {
+    color: black;
+}*/
+
+.extra1 {
+	background: rgba(51,55,69,0.9);
+	width: 30%;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	margin: 0px;
+	position: fixed;
+	z-index: 0;
+}
